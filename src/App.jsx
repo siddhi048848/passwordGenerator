@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef} from 'react'
 
-
+import './App.css'// 👈 import tailwind plugin
 function App() {
   const [length, setLength] = useState(8)
   const [noAllowed, setNoAllowed] = useState(false);
@@ -38,7 +38,7 @@ function App() {
     <>
       <div className=' w-full max-m-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-800'>
         <h1 className='text-white text-center my-3'>Password Generator</h1>
-        <div className="flexShadow rounded-lg overflow-hidden mb-4">
+        <div className="flex items-center Shadow rounded-lg overflow-hidden mb-4">
           <input type="text"
           value={password}
           className='outline-none w-full py-2 px-3 bg-white text-black rounded-lg'
@@ -83,6 +83,7 @@ function App() {
 
           </div>
           </div>
+        
     </>
   )
 }
