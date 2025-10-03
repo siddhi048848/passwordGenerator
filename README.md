@@ -1,16 +1,36 @@
-# React + Vite
+# 🔐 Password Generator (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive password generator built with **React** and **TailwindCSS**.  
+You can generate strong random passwords with customizable length, numbers, and special characters, and copy them with a single click.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Adjustable password length (6–100)
+- Option to include/exclude numbers
+- Option to include/exclude special characters
+- One-click copy to clipboard
+- Centered UI for a clean look
+- Password input and copy button aligned on the same line
+- Responsive design with TailwindCSS
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React** (Hooks: `useState`, `useCallback`, `useEffect`, `useRef`)
+- **TailwindCSS** for styling
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Screenshot
+![App Screenshot]([./screenshot.png](https://drive.google.com/file/d/1R8c2gGorPjzJVo5FgOFxQ4640c7jJFC_/view?usp=sharing))
+
+---
+
+## ⚡ Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/password-generator.git
+cd password-generator
+
